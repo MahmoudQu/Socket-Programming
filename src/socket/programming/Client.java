@@ -20,6 +20,7 @@ public class Client {
             System.out.println("A message of data contains : "+msg +" is sent to the server");
             System.out.println(dataInputStream.readUTF());
 
+
             dataInputStream.close();
             dataOutputStream.close();
             socket.close();
