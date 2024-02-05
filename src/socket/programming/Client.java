@@ -19,7 +19,7 @@ public class Client {
             dataOutputStream.writeUTF(msg);
             System.out.println("A message of data contains : "+msg +" is sent to the server");
             System.out.println(dataInputStream.readUTF());
-
+            // mahmoud mahmoud
             dataInputStream.close();
             dataOutputStream.close();
             socket.close();
